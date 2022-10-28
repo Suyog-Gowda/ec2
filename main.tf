@@ -6,9 +6,5 @@ resource "aws_instance" "instance-ec2" {
 			Name = "Trial_instance"
 	}
 }
-terraform {
-  backend "local" {
-     path = "C:\Users\SUYOG\OneDrive\Desktop\Terraform\Ec2\terraform.tfstate.d\dev"
-  }
-}
+
 
